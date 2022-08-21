@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+body{
+    font-family:'Montserrat', sans-serif;
+}
+
+.logo{
+    height: 6rem;
+}
+
+/*======================Menu=============*/
+#menu li > a{
+font-size: 18px;
+font-weight: bolder;
+color: #3f3f3f;
+}
+#menu form > button{
+font-size: 18px;
+font-weight: bolder;
+}
+#menu a:hover{
+    box-shadow:0 -3px 0 0  rgba(0, 0, 0, 0.2);
+
+}
+/*======================imagenes=============*/
+.carousel-inner{
+    max-height: 35rem;
+}
+#carousel-1,#carousel-2, #carousel-3{
+    max-height: 40rem;
+    max-width: 100%;
+}
+
+/*======================para pantalla mediana=============*/
+@media (max-width:768px){
+
+#carousel-1,#carousel-2, #carousel-3{
+    max-height: 25rem;
+    max-width: 100%;
+}
+#intro{
+    width:90% !important;
+}
+
+}
+/*======================para pantalla pequeña=============*/
+
+@media(max-width:576px){
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #carousel-2, #carousel-3{
+        max-height: 15rem;
+        max-width: 100%;
+    }
+    #carousel-1{
+        height: 15rem;
+        max-width: 100%;
+    }
+    #intro{
+        width:90% !important;
+    }
+}
