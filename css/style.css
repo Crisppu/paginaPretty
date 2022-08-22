@@ -70,9 +70,9 @@ font-weight: bolder;
 .row-servicios, p{
     text-align:left;
 }
-.imagen1-servicio{
+.imagenes-servicio, .imagenes3-servicio{
     width: 100% !important;
-    height: 360px;
+    height: 370px;
 }
 
 }
@@ -105,8 +105,8 @@ font-weight: bolder;
     .row-servicios, p{
         text-align:left;
     }
-    .imagen1-servicio{
-        width: 100%;
-        height: 200px;
+    .imagenes-servicio, .imagenes3-servicio{
+        width: 100% ;
+        height: 250px;
     }
 }
